@@ -5,4 +5,4 @@ spring:
     name: user-service
     
 user-service:
-  message: "User Service Configuration from Cloud Config"
+  message: "User Service Configuration from MS Cloud Config"
