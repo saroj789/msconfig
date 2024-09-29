@@ -1,8 +1,0 @@
-server:
-  port: 8081
-spring:
-  application:
-    name: user-service
-    
-user-service:
-  message: "User Service Configuration from Cloud Config"
