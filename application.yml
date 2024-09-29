@@ -3,10 +3,15 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
-spring:
-  sleuth:
-    sampler:
-      probability: 1.0 # This ensures 100% of requests are traced
-  zipkin:
-    base-url: http://localhost:9411  # Zipkin server URL
+management:
+  tracing:
     enabled: true
+  metrics:
+    export:
+      simple:
+        enabled: true
+
+tracing:
+  zipkin:
+    enabled: true
+    endpoint: http://localhost:9411/api/v2/spans  # Zipkin server URL
