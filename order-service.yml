@@ -5,4 +5,4 @@ spring:
     name: order-service
 
 order-service:
-  message: "Order Service Configuration from MS Cloud Config(HOT RELOAD)"
+  message: "Order Service Configuration from MS Cloud Config"
