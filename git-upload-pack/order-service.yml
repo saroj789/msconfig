@@ -1,8 +1,0 @@
-server:
-  port: 8089
-spring:
-  application:
-    name: order-service
-
-order-service:
-  message: "Order Service Configuration from git-upload-pack"
